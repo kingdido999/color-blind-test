@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <title>Color Blindness Test by EnChroma</title>
+
+  <script>
+    var userAgent = navigator.userAgent + '';
+    if (userAgent.indexOf('iPhone') > -1) {
+      document.write('<script src="js/lib/cordova-iphone.js"></sc' + 'ript>');
+      var mobile_system = 'iphone';
+    } else if (userAgent.indexOf('Android') > -1) {
+      document.write('<script src="js/lib/cordova-android.js"></sc' + 'ript>');
+      var mobile_system = 'android';
+    } else {
+      var mobile_system = '';
+    }
+  </script>
+
+  <script>var app_version = "150401.2";</script>
+
+  <!-- base href="http://d1h1nw9upgtapw.cloudfront.net/test-150401.2/" / -->
+
+  <!-- <script>
+      document.write('<base href="http://d1h1nw9upgtapw.cloudfront.net/test-' + app_version + '/"/>');
+  </script> -->
+
+  <script>
+    var options = {
+        format: "number",
+        response_max_dt: 0,
+        confidence_goal: 90,
+        show_status: "off",
+        dot_animate: "off",
+        show_detail: "on"
+    };
+  </script>
+
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <link rel="stylesheet"  href="css/jquery.mobile.structure-1.3.2.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.theme-1.3.2.min.css" />
+
+  <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" />
+
+  <link rel="stylesheet" href="css/app-rules.css" />
+
+  <script>
+    var userAgent = navigator.userAgent + '';
+    if (userAgent.indexOf('iPhone') > -1) {
+      document.write('<script src="js/lib/cordova-iphone.js"></sc' + 'ript>');
+      var mobile_system = 'iphone';
+    } else if (userAgent.indexOf('Android') > -1) {
+      document.write('<script src="js/lib/cordova-android.js"></sc' + 'ript>');
+      var mobile_system = 'android';
+    } else {
+      var mobile_system = '';
+    }
+
+    // online application
+    var mobile_system = 'online';
+
+    function isCanvasSupported(){
+        var elem = document.createElement('canvas');
+        return !!(elem.getContext && elem.getContext('2d'));
+    }
+
+    if (! isCanvasSupported()){
+        window.location = "/test/sorry";
+    }
+  </script>
+
+  <script src="js/lib/jquery-1.10.2.min.js"></script>
+
+  <style type="text/css">
+   td.status-label {
+       color: #666;
+   }
+
+   .ui-dialog-contain {
+        margin-top: 50px;
+   }
+  </style>
+
+  <!-- your scripts here -->
+
+      <!-- sprintf() -->
+      <script type="text/javascript" src="js/lib/sprintf-0.7-beta1.js"></script>
+
+      <!-- JSON -->
+      <script type="text/javascript" src="js/lib/json2.js"></script>
+
+      <!-- Base64 -->
+      <script type="text/javascript" src="js/lib/base64.js"></script>
+
+      <!-- Complex -->
+      <script type="text/javascript" src="js/lib/Complex.js"></script>
+
+      <!-- Raphael SVG -->
+      <!-- <script type="text/javascript" src="js/lib/raphael-min.js"></script> -->
+      <!-- <script type="text/javascript" src="js/lib/scale.raphael.js"></script> -->
+
+      <!-- numeric -->
+      <script type="text/javascript" src="js/lib/numeric-1.2.6.js"></script>
+
+      <!-- ENCR Color Vision -->
+      <script type="text/javascript" src="js/app/ENCRColorVision.js"></script>
+
+      <!-- ENCR Math -->
+      <script type="text/javascript" src="js/app/ENCRMath.js"></script>
+
+      <!-- EnChroma APIC Data -->
+      <script type="text/javascript" src="js/app/ENCRAPICData.js"></script>
+
+      <!-- EnChroma APIC App -->
+      <script type="text/javascript" src="js/app/ENCRAPICApp.js"></script>
+
+  <script src="js/app/app.js"></script>
+
+  <script src="js/app/bootstrap.js"></script>
+  <script src="js/lib/jquery.mobile-1.3.2.min.js"></script>
+
+  </head>
+
+  <!-- fire immediately to instructions on load -->
+  <body id="body" onload="setTimeout(function () { $.mobile.changePage('#instructions-1', { transition: 'pop', role: 'dialog' }); }, 1);">
+
+    <!-- main page -->
+
+    <div data-role="page" id="main" data-theme="a" class="disable-select">
+
+    	<!-- <div data-role="content" style="max-width:75%; margin-right: auto; margin-left: auto">
+    	    <img style="width:540px; max-width:95%; display:block; margin-left: auto; margin-right: auto;" src="images/enchroma-640px.png" />
+    	</div> --><!-- /content -->
+
+    </div><!-- /page id="main" -->
+
+
+    <!-- ------------------------------- ------------------------------- ------------------------------- ->
+    <!-- ------------------------------- ------------------------------- ------------------------------- ->
+    <!-- ------------------------------- ------------------------------- ------------------------------- ->
+    <!-- ------------------------------- ------------------------------- ------------------------------- ->
+    <!-- ------------------------------- ------------------------------- ------------------------------- ->
+
+
+     <!-- test page -->
+    <div data-role="page" id="test" data-theme="a" class="disable-select">
+
+        <div id="test-header">
+            <div data-role="header">
+    	       <a href="javascript:stopTest()" data-icon="delete" class="ui-btn-left">Stop</a>
+    	       <h1><span id="test-header-text">Test</span></h1>
+    	       <a href="javascript:reloadTest()" data-icon="refresh" class="ui-btn-right">Restart</a>
+            </div>
+        </div>
+
+    	<div id="status-bar">
+            	<div id="status-content" style="background-color:#333; border-top: 2px solid #222; text-align: center; padding-top:20px; width:100%; margin-left:auto; margin-right:auto; display:block">
+    	       <center><div id="status-content-inner" style="text-align: left; color:#999; display:none">
+    	       <table width="100%">
+    	       <tr><td width="40%">
+    	       <div style="padding-right:20px">
+        	       <table width="100%">
+            	       <tr><td class="status-label">Current&nbsp;Trial&nbsp;Axis</td><td id="status-var-taxis">DEMO</td></tr>
+            	       <tr><td class="status-label">Current&nbsp;Trial&nbsp;Delta</td><td id="status-var-tdelta">100</td></tr>
+            	       <tr><td class="status-label">Most&nbsp;Likely&nbsp;Result</td><td id="status-var-resultest">Unknown</td></tr>
+            	       <tr><td class="status-label">Confidence</td><td width="100%" style="background-color:#222;">
+            	           <div id="status-var-confidence-ext" style="float:left;background-color:#444; width:0%; text-align:right">&nbsp;</div>
+            	           <div id="status-var-confidence-rem" style="float:right;width:100%; ">&nbsp;0%</div>
+            	       </td></tr>
+        	       </table>
+    	       </div>
+    	       </td><td width="60%">
+    	       <div>
+        	       <table width="100%">
+        	           <tr><td colspan="2">Color Discrimination Thresholds:</td></tr>
+            	       <tr><td class="status-label">Red-Green&nbspAxis&nbsp;</td><td width="100%" id="status-bar-rep" style="background-color:#222;">
+            	           <div id="status-var-axis-RG-ext" style="float:left; background-color:#444; width:50%; text-align:right">50&nbsp;</div><div id="status-var-axis-RG-rem" style="float:right; width:50%;">&nbsp;</div>
+            	        </td></tr>
+            	       <tr><td class="status-label">Blue-Yellow&nbspAxis&nbsp;</td><td width="100%" style="background-color:#222;">
+            	           <div id="status-var-axis-BY-ext" style="float:left;background-color:#444; width:50%; text-align:right">50&nbsp;</div>
+            	           <div id="status-var-axis-BY-rem" style="float:right;width:50%;">&nbsp;</div>
+            	       </td></tr>
+            	       <tr><td class="status-label">Ellipse&nbsp;Parameters</td><td id="status-var-ellipse">-</td></tr>
+        	       </table>
+    	       </div>
+    	       </td></tr></table>
+    	       </table>
+                </div></center>
+    	       <center><div id="progress-content-inner" style="font-size:125%; padding-top:5px;text-align: left; color:#aaa; display:none; margin-left:20px; margin-right:20px; max-width:90%">
+        	       <table width="100%" style="margin: 0; padding: 0">
+            	       <tr><td class="status-label">Test&nbsp;Progress:</td><td width="100%" style="background-color:#222;">
+            	           <div id="status-var-progress-ext" style="float:left;background-color:#444; width:0%; text-align:right">&nbsp;</div>
+            	           <div id="status-var-progress-rem" style="float:right;width:100%; ">&nbsp;</div>
+            	       </td></tr>
+        	       </table>
+    	       </div></center>
+    	   </div>
+        </div>
+
+
+        <!-- timeout notice -->
+        <img id="timeout-notice" style="font-size:125%; margin-top: auto; margin-bottom: auto; text-align: center; display:block; width:100%; height:100%; z-index: 1; position: absolute; left: 100px; top: 100px; display:none" class="timeout-notice" src="images/timeout-notice.png" />
+
+    	<div data-role="content" id="test-content">
+
+    	    <div class="ui-grid-a" style="width:100%">
+
+            	<div class="ui-block-a" style="width:100%" id="app-content">
+                	<div id="main-canvas-container" style="width:100%; height: 100%; text-align: center">
+                	    <center>
+                	       <div id="main-canvas" style="margin-left: auto; margin-right: auto; text-align: center; display:none">
+                	       </div>
+                	   </center>
+                	</div>
+                    <div id="controls-bottom" style="width:100%; text-align:center"><center>
+            	        <div class="ui-grid-d" id="controls-bottom-task-symbol" style="max-width: 768px; margin-left: auto; margin-right: auto; display:none">
+                    	    <div class="ui-block-a"><a id="controls-bottom-square" href="javascript:responseButton(1);" data-icon="encr-square" data-iconpos="top" data-role="button">Square</a></div>
+                    	    <div class="ui-block-b"><a id="controls-bottom-circle" href="javascript:responseButton(2);" data-icon="encr-circle" data-iconpos="top" data-role="button">Circle</a></div>
+                    	    <div class="ui-block-c"><a id="controls-bottom-diamond" href="javascript:responseButton(3);"  data-icon="encr-diamond" data-iconpos="top" data-role="button">Diamond</a></div>
+                    	    <div class="ui-block-d"><a id="controls-bottom-unsure" href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-role="button">Unsure</a></div>
+                    	    <div class="ui-block-e"><a id="controls-bottom-nothing" href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button">Nothing</a></div>
+                        </div>
+            	        <div class="ui-grid-b" id="controls-bottom-task-number" style="max-width: 768px; margin-left: auto; margin-right: auto; display:none">
+                            <div class="ui-block-a" style="width:25%"></div>
+                    	    <div class="ui-block-b" style="width:60%">
+	                        	<div class="ui-grid-c">
+                                	<div class="ui-block-a"><a href="javascript:responseNumber(1)" data-role="button" style="margin-top: 15px">1</a></div>
+                                	<div class="ui-block-b"><a href="javascript:responseNumber(2)" data-role="button" style="margin-top: 15px">2</a></div>
+                                	<div class="ui-block-c"><a href="javascript:responseNumber(3)" data-role="button" style="margin-top: 15px">3</a></div>
+                                	<div class="ui-block-d"></div>
+                                </div>
+                            	<div class="ui-grid-c">
+                                	<div class="ui-block-a"><a href="javascript:responseNumber(4)" data-role="button" style="margin-top: 15px">4</a></div>
+                                	<div class="ui-block-b"><a href="javascript:responseNumber(5)" data-role="button" style="margin-top: 15px">5</a></div>
+                                	<div class="ui-block-c"><a href="javascript:responseNumber(6)" data-role="button" style="margin-top: 15px">6</a></div>
+                                	<div class="ui-block-d"></div>
+                                </div>
+                            	<div class="ui-grid-c">
+                                	<div class="ui-block-a"><a href="javascript:responseNumber(7)" data-role="button" style="margin-top: 15px">7</a></div>
+                                	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-role="button" style="margin-top: 15px">8</a></div>
+                                	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-role="button" style="margin-top: 15px">9</a></div>
+                                	<div class="ui-block-d"><a href="javascript:responseNumber(0)" data-role="button" style="margin-top: 15px">Pass</a></div>
+                                </div>
+                            </div>
+                            <div class="ui-block-c" style="width:15%"></div>
+                        </div>
+
+                        <div class="ui-grid-solo" style="max-width: 400px; margin-left: auto; margin-right: auto; display:none" id="controls-bottom-task-oddity">
+                    	    <div class="ui-block-a"><a id="controls-bottom-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="top" data-role="button">Pass</a></div>
+                        </div>
+                    </center></div><!-- end of controls-bottom -->
+                    <div id="controls-bottom-mini" style="display: none; width:100%; text-align:center"><center>
+                	    <div id="controls-bottom-mini-task-symbol" style="display:none">
+                    	    <div class="ui-grid-b" style="max-width: 400px; margin-left: auto; margin-right: auto;">
+                        	    <div class="ui-block-a"><a href="javascript:responseButton(1);" data-icon="encr-square" data-iconpos="top" data-mini="true" data-role="button">Square</a></div>
+                        	    <div class="ui-block-b"><a href="javascript:responseButton(2);" data-icon="encr-circle" data-iconpos="top" data-mini="true" data-role="button">Circle</a></div>
+                        	    <div class="ui-block-c"><a href="javascript:responseButton(3);"  data-icon="encr-diamond" data-iconpos="top" data-mini="true" data-role="button">Diamond</a></div>
+                            </div>
+                    	    <div class="ui-grid-a" style="max-width: 400px; margin-left: auto; margin-right: auto">
+                        	    <div class="ui-block-a"><a href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-mini="true" data-role="button">Unsure</a></div>
+                        	    <div class="ui-block-b"><a href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-mini="true" data-role="button">Nothing</a></div>
+                            </div>
+                        </div><!-- end of contols-bottom-mini-task-symbol -->
+
+            	        <div class="ui-grid-b" id="controls-bottom-mini-task-number" style="max-width: 768px; margin-left: auto; margin-right: auto; display:none">
+                            <div class="ui-block-a" style="width:25%"></div>
+                    	    <div class="ui-block-b" style="width:60%">
+	                        	<div class="ui-grid-c">
+                                	<div class="ui-block-a"><a href="javascript:responseNumber(1)" data-mini="true" data-role="button" style="margin-top: 10px">1</a></div>
+                                	<div class="ui-block-b"><a href="javascript:responseNumber(2)" data-mini="true" data-role="button" style="margin-top: 10px">2</a></div>
+                                	<div class="ui-block-c"><a href="javascript:responseNumber(3)" data-mini="true" data-role="button" style="margin-top: 10px">3</a></div>
+                                	<div class="ui-block-d"></div>
+                                </div>
+                            	<div class="ui-grid-c">
+                                	<div class="ui-block-a"><a href="javascript:responseNumber(4)" data-mini="true" data-role="button" style="margin-top: 10px">4</a></div>
+                                	<div class="ui-block-b"><a href="javascript:responseNumber(5)" data-mini="true" data-role="button" style="margin-top: 10px">5</a></div>
+                                	<div class="ui-block-c"><a href="javascript:responseNumber(6)" data-mini="true" data-role="button" style="margin-top: 10px">6</a></div>
+                                	<div class="ui-block-d"></div>
+                                </div>
+                            	<div class="ui-grid-c">
+                                	<div class="ui-block-a"><a href="javascript:responseNumber(7)" data-mini="true" data-role="button" style="margin-top: 10px">7</a></div>
+                                	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-mini="true" data-role="button" style="margin-top: 10px">8</a></div>
+                                	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-mini="true" data-role="button" style="margin-top: 10px">9</a></div>
+                                	<div class="ui-block-d"><a href="javascript:responseNumber(0)" data-mini="true" data-role="button" style="margin-top: 10px">Pass</a></div>
+                                </div>
+                            </div>
+                            <div class="ui-block-c" style="width:15%"></div>
+                        </div>
+
+                        <div class="ui-grid-solo" style="max-width: 300px; margin-left: auto; margin-right: auto; display:none" id="controls-bottom-mini-task-oddity">
+                    	    <div class="ui-block-a"><a id="controls-bottom-mini-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="left" data-mini="true" data-role="button">Skip</a></div>
+                        </div>
+                    </center></div><!-- end of controls-bottom-mini -->
+                </div><!-- end of ui-block-a -->
+            	<div id="controls-right" class="ui-block-b" style="width:0%; display:none; max-height:100%;">
+                	<div id="controls-right-task-symbol" style="display:none">
+                        	<a href="javascript:responseButton(1);" data-icon="encr-square" data-iconpos="top" data-role="button" style="margin-top: 25px">Square</a>
+                        	<a href="javascript:responseButton(2);" data-icon="encr-circle" data-iconpos="top" data-role="button" style="margin-top: 25px">Circle</a>
+                        	<a href="javascript:responseButton(3);" data-icon="encr-diamond" data-iconpos="top" data-role="button" style="margin-top: 25px">Diamond</a>
+                        	<a href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-role="button" style="margin-top: 25px">Unsure</a>
+                        	<a href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">Nothing</a>
+                    </div>
+                	<div id="controls-right-task-number" style="display:none">
+                    	<div class="ui-grid-b">
+                        	<div class="ui-block-a"><a href="javascript:responseNumber(1)" data-role="button" style="margin-top: 15px">1</a></div>
+                        	<div class="ui-block-b"><a href="javascript:responseNumber(2)" data-role="button" style="margin-top: 15px">2</a></div>
+                        	<div class="ui-block-c"><a href="javascript:responseNumber(3)" data-role="button" style="margin-top: 15px">3</a></div>
+                        </div>
+                    	<div class="ui-grid-b">
+                        	<div class="ui-block-a"><a href="javascript:responseNumber(4)" data-role="button" style="margin-top: 15px">4</a></div>
+                        	<div class="ui-block-b"><a href="javascript:responseNumber(5)" data-role="button" style="margin-top: 15px">5</a></div>
+                        	<div class="ui-block-c"><a href="javascript:responseNumber(6)" data-role="button" style="margin-top: 15px">6</a></div>
+                        </div>
+                    	<div class="ui-grid-b">
+                        	<div class="ui-block-a"><a href="javascript:responseNumber(7)" data-role="button" style="margin-top: 15px">7</a></div>
+                        	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-role="button" style="margin-top: 15px">8</a></div>
+                        	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-role="button" style="margin-top: 15px">9</a></div>
+                        </div>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-unsure" data-iconpos="top" data-role="button" style="margin-top: 25px">Unsure</a>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">Nothing</a>
+                    </div>
+                    <div id="controls-right-task-oddity" style="display:none;">
+                    	<a id="controls-right-skip" href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">Pass</a>
+                    </div>
+                </div>
+	            <div id="controls-right-mini" class="ui-block-b" style="width:0%; display:none; max-height:100%">
+	                <div id="controls-right-mini-task-symbol" style="display:none">
+                    	<a href="javascript:responseButton(1);" data-icon="encr-square" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Square</a>
+                    	<a href="javascript:responseButton(2);" data-icon="encr-circle" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Circle</a>
+                    	<a href="javascript:responseButton(3);" data-icon="encr-diamond" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Diamond</a>
+                    	<a href="javascript:responseButton(4);" data-icon="encr-unsure" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Unsure</a>
+                    	<a href="javascript:responseButton(4);" data-icon="encr-nothing" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Nothing</a>
+                    </div>
+                	<div id="controls-right-mini-task-number" style="display:none;">
+                    	<div class="ui-grid-b">
+                        	<div class="ui-block-a"><a href="javascript:responseNumber(1)" data-mini="true" data-role="button" style="margin-top: 10px">1</a></div>
+                        	<div class="ui-block-b"><a href="javascript:responseNumber(2)" data-mini="true" data-role="button" style="margin-top: 10px">2</a></div>
+                        	<div class="ui-block-c"><a href="javascript:responseNumber(3)" data-mini="true" data-role="button" style="margin-top: 10px">3</a></div>
+                        </div>
+                    	<div class="ui-grid-b">
+                        	<div class="ui-block-a"><a href="javascript:responseNumber(4)" data-mini="true" data-role="button" style="margin-top: 10px">4</a></div>
+                        	<div class="ui-block-b"><a href="javascript:responseNumber(5)" data-mini="true" data-role="button" style="margin-top: 10px">5</a></div>
+                        	<div class="ui-block-c"><a href="javascript:responseNumber(6)" data-mini="true" data-role="button" style="margin-top: 10px">6</a></div>
+                        </div>
+                    	<div class="ui-grid-b">
+                        	<div class="ui-block-a"><a href="javascript:responseNumber(7)" data-mini="true" data-role="button" style="margin-top: 10px">7</a></div>
+                        	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-mini="true" data-role="button" style="margin-top: 10px">8</a></div>
+                        	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-mini="true" data-role="button" style="margin-top: 10px">9</a></div>
+                        </div>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-unsure" data-mini="true" data-iconpos="top" data-role="button" style="margin-top: 20px">Unsure</a>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-nothing" data-mini="true" data-iconpos="top" data-role="button" style="margin-top: 10px">Nothing</a>
+                    </div>
+                    <div id="controls-right-mini-task-oddity" style="display:none;">
+                    	<a id="controls-right-mini-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="top" data-mini="true" data-role="button" style="margin-top: 25px">Pass</a>
+                    </div>
+                </div>
+            </div><!-- end of ui-grid-a -->
+
+    	</div><!-- /content -->
+
+        <div data-role="footer" id="test-footer">
+	       <!-- <a href="javascript:toggleStatus();" id="status-toggle" data-icon="arrow-d" class="ui-btn-right">Status</a> -->
+	       <h1 style="color:#aaa">EnChroma Color Blindness Test &copy; 2015</h1>
+        </div>
+
+
+    </div><!-- /page id="test" -->
+
+    <!-- instructions page 0 -->
+    <div data-role="page" id="instructions-0" class="disable-select">
+
+        <div data-role="header">
+        <h1>NOTICE</h1>
+        </div>
+
+        <div data-role="content">
+            <p>While taking this test, please <b>DO NOT</b> wear any type of filtering eyewear or tinted lenses.</p>
+            <p><i>The EnChroma Cx lenses are not designed to defeat color blindness screening tests and are not certified to improve your score on this test.</i></p>
+    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">Continue...</a>
+         </div>
+
+    </div>
+
+
+    <!-- instructions page -->
+    <div data-role="page" id="instructions-1" class="disable-select">
+
+        <div data-role="header">
+        <h1>Instructions</h1>
+        </div>
+
+    	<div data-role="content">
+    	    <div id="instructions-symbol" style="display:none">
+    	      <p><b>Instructions for Hidden Symbol Task:</b></p>
+              <p>You will see an image composed of small dots.</p>
+    	      <p>Look for a shape that is hidden in the pattern of dots.</p>
+              <p>The shape can be a <b>square</b>, <b>circle</b>, or <b>diamond</b></p>
+              <p>Select the appropriate button to indicate what you see in each image.</p>
+    	    </div>
+    	    <div id="instructions-number" style="display:none">
+    	      <p><b>Instructions for Hidden Number Task:</b></p>
+              <p>You will see an image composed of small dots. The image is only shown for a short period of time.</p>
+    	      <p>Look for a number that is hidden in the pattern of dots. The number will be a single digit from 1 to 9.</p>
+              <p>Select the appropriate button to indicate what you see in each image. You can also type the corresponding number on a keyboard or numeric keypad.</p>
+    	    </div>
+    	    <div id="instructions-oddity" style="display:none">
+    	      <p><b>Instructions for Oddity Task:</b></p>
+    	      <p>You will see 4x4 arrangement of circles.</p>
+    	      <p>Look for a circle that appears with a different color and then click-on or touch its location.</p>
+    	      <p></p>
+              <p>If you can't find the "odd-one-out", select the "pass" button.</p><p>There is no penalty for guessing.</p>
+    	    </div>
+    	    <a href="#test" data-role="button" data-icon="arrow-r">Start Now</a>
+      	</div><!-- /content -->
+
+    </div><!-- /page id="instructions-1" -->
+
+
+    <div data-role="page" id="instructions-retry" class="disable-select">
+
+        <div data-role="header">
+        <h1>NOTICE</h1>
+        </div>
+
+    	<div data-role="content">
+    	    <p><b>Sorry, a problem was detected in the responses provided.</b></p>
+    	    <p>Please read the instructions and try again. If you get this error again, you may have a color deficiency that is too strong to be measured using this app.</b></p>
+    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">Try Again</a>
+      	</div><!-- /content -->
+
+    </div>
+
+    <div data-role="page" id="instructions-error" class="disable-select">
+
+        <div data-role="header">
+        <h1>ERROR</h1>
+        </div>
+
+    	<div data-role="content">
+    	    <p><b>Sorry, an internal error condition was detected.</b></p>
+    	    <p>Please try the test again. If you get this error again, you may have a color deficiency that is too strong to be measured using this app.</b></p>
+    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">Try Again</a>
+      	</div><!-- /content -->
+
+    </div>
+
+    <div data-role="page" id="cvd">
+
+        <div data-role="header">
+        <h1>Color Blindness</h1>
+        </div>
+
+    	<div data-role="content">
+    	    <h2>What is Color Blindness?</h2>
+    	    <p>Color blindness (also called color vision deficiency or CVD) is a reduced ability to see colors.</p>
+    	    <p>Someone who is color blind is technically not "blind" to colors, but may misidentify, confuse, fail to notice or notice colors less quickly than normal.</p>
+    	    <p>About 1 in 12 male and 1 in 200 females worldwide have congenital red-green color vision deficiency (CVD). An estimated 3-4% of the population has acquired blue-yellow CVD associated with an age-related low-vision disorder.<p>
+    	    <p>Protans have a red-green color vision deficiency caused by an anomaly in the red-sensitive retinal cone cells. Protans typically confuse between orange versus green, red versus black, blue versus purple, and light red (or "salmon") versus gray.</p>
+    	    <p>Deutans have a red-green color vision deficiency caused by an anomaly in the green-sensitive retinal cone cells. Deutans typically confuse shades of yellow versus green, green versus gray and magenta (or "pink") versus gray.</p>
+    	    <p>Tritans have a blue-yellow color vision deficiency caused by an anomaly of the blue-sensitive retinal cone cells. Tritans typically confuse shades of yellow versus gray and blue versus gray.</p>
+    	    <p>CVD is classified by type (protan, deutan or tritan) as well as the extent which can be mild, moderate or strong.</p>
+    	    <p><em>This test is not a medical diagnosis and has not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease. Results may vary depending on the color accuracy of your display. Please consult your eye care professional for more information about color vision deficiency.</em></p>
+            <a href="#main" data-role="button" data-icon="arrow-l">Back to Main Menu</a>
+      	</div><!-- /content -->
+
+    </div><!-- /page id="instructions" -->
+
+
+    <!-- about page -->
+    <div data-role="page" id="about">
+
+        <div data-role="header">
+        <h1>About</h1>
+        </div>
+
+    	<div data-role="content">
+
+    	    <img style="max-width:85%; display:block; margin-left: auto; margin-right: auto;" src="images/enchroma-480px.png" />
+
+    	    <!-- insert a picture or something -->
+            <p>EnChroma’s mission is to leverage our understanding of human color vision to create innovative products that help people see the world better.</p>
+    	    <p>Visit our website at <a href="http://enchroma.com" onclick="window.open(this.href,'_system'); return false;"><b>enchroma.com</b></a>.</p>
+    	    <p>Copyright 2015 EnChroma, Inc.</p>
+    	    <p>EnChroma is a registered trademark of EnChroma, Inc.</p>
+
+        	<a href="#main" data-role="button" data-icon="arrow-l">Back to Main Menu</a>
+    	</div><!-- /content -->
+
+    </div><!-- /page id="back" -->
+
+
+
+    <div data-role="page" id="sorry" class="disable-select">
+
+        <div data-role="header"><h1>Sorry</h1></div>
+
+    	<div data-role="content">
+    	   <p>Sorry, the email report could not be sent.</p>
+    	   <p>Make sure your device is connected to the network or try again later.</p>
+           <a href="#main" data-role="button" data-icon="arrow-l">Back to Main Menu</a>
+    	</div>
+
+    </div>
+
+
+    <div data-role="page" id="error" class="disable-select">
+
+        <div data-role="header"><h1>Internal Error</h1></div>
+
+    	<div data-role="content">
+           <p>Sorry, the EnChroma Color Blindness Test detected an internal error.  The test is presently unable to operate on your device.</p>
+           <a href="#main" data-role="button" data-icon="arrow-l">Back to Main Menu</a>
+    	</div>
+
+    </div>
+
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3264423545","applicationID":"12519837","transactionName":"Y1RQYREDVkNRUkZfV1oeZ0cKTRdfQEUdVFFAX1NYCk1ZQEBCHUFXRlVCRwYRSx9YRVZZW0ceRlAQFhUBBQEGBgkaAx1cDQZdSB5BWkY=","queueTime":0,"applicationTime":0,"atts":"TxNTF1kZRU0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

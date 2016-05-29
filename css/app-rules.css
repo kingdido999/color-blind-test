@@ -1,0 +1,78 @@
+.ui-icon-encr-square {
+	background-image: url("../buttons/square.png");
+}
+
+.ui-icon-encr-circle {
+	background-image: url("../buttons/circle.png");
+}
+
+.ui-icon-encr-diamond {
+	background-image: url("../buttons/diamond.png");
+}
+
+.ui-icon-encr-nothing {
+	background-image: url("../buttons/nothing.png");
+}
+
+.ui-icon-encr-unsure {
+	background-image: url("../buttons/unsure.png");
+}
+
+/*
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-encr-square {
+		background-image: url("../buttons/square-highres.png");
+		background-size: 18px 18px;
+	}
+
+	.ui-icon-encr-circle {
+		background-image: url("../buttons/circle-highres.png");
+		background-size: 18px 18px;
+	}
+
+	.ui-icon-encr-diamond {
+		background-image: url("../buttons/diamond-highres.png");
+		background-size: 18px 18px;
+	}
+
+	.ui-icon-encr-nothing {
+		background-image: url("../buttons/nothing-highres.png");
+		background-size: 18px 18px;
+	}
+
+}
+*/
+
+body {
+    height: 100%;              
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000000;
+}
+
+html {
+    height: 100%;
+}
+
+#main-canvas {
+    padding: 0px;
+}
+          
+.main-canvas {
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    padding: 0px;
+}
+
+.disable-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+    
+

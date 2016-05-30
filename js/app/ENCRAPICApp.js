@@ -611,7 +611,7 @@ function draw() {
             response_timeout = window.setTimeout(inputResponseTimeout, (Fa < 2 ? 5 : response_max_dt) * 1000);
         }
         var O = document.getElementById("test-header-text");
-        O.innerHTML = "Trial #" + Fa + "";
+        O.innerHTML = "测试 #" + Fa + "";
     }
     if (dot_animate) {
         if (E3 == 2 && task == "oddity" && sa) {
@@ -892,7 +892,7 @@ function endTestNow() {
     U2 = t;
     if (mobile_system == "online") {
       // manipulate data
-      
+
       window.location = "http://enchroma.com/test/?summary=" + encodeURIComponent(result_summary) +
           "&axis=" + encodeURIComponent(result.ellipse_axis) +
           "&exta=" + encodeURIComponent(result.ellipse_a) +

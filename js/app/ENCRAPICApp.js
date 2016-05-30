@@ -891,6 +891,8 @@ function endTestNow() {
     }
     U2 = t;
     if (mobile_system == "online") {
+      // manipulate data
+      
       window.location = "http://enchroma.com/test/?summary=" + encodeURIComponent(result_summary) +
           "&axis=" + encodeURIComponent(result.ellipse_axis) +
           "&exta=" + encodeURIComponent(result.ellipse_a) +

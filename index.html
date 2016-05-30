@@ -2,7 +2,7 @@
 <html>
   <head>
   <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
-  <title>Color Blindness Test by EnChroma</title>
+  <title>增彩色弱测试</title>
 
   <script>
     var userAgent = navigator.userAgent + '';
@@ -149,9 +149,9 @@
 
         <div id="test-header">
             <div data-role="header">
-    	       <a href="javascript:stopTest()" data-icon="delete" class="ui-btn-left">Stop</a>
+    	       <a href="javascript:stopTest()" data-icon="delete" class="ui-btn-left">停止</a>
     	       <h1><span id="test-header-text">Test</span></h1>
-    	       <a href="javascript:reloadTest()" data-icon="refresh" class="ui-btn-right">Restart</a>
+    	       <a href="javascript:reloadTest()" data-icon="refresh" class="ui-btn-right">重来</a>
             </div>
         </div>
 
@@ -190,7 +190,7 @@
                 </div></center>
     	       <center><div id="progress-content-inner" style="font-size:125%; padding-top:5px;text-align: left; color:#aaa; display:none; margin-left:20px; margin-right:20px; max-width:90%">
         	       <table width="100%" style="margin: 0; padding: 0">
-            	       <tr><td class="status-label">Test&nbsp;Progress:</td><td width="100%" style="background-color:#222;">
+            	       <tr><td class="status-label">进 度:</td><td width="100%" style="background-color:#222;">
             	           <div id="status-var-progress-ext" style="float:left;background-color:#444; width:0%; text-align:right">&nbsp;</div>
             	           <div id="status-var-progress-rem" style="float:right;width:100%; ">&nbsp;</div>
             	       </td></tr>
@@ -219,8 +219,8 @@
                     	    <div class="ui-block-a"><a id="controls-bottom-square" href="javascript:responseButton(1);" data-icon="encr-square" data-iconpos="top" data-role="button">Square</a></div>
                     	    <div class="ui-block-b"><a id="controls-bottom-circle" href="javascript:responseButton(2);" data-icon="encr-circle" data-iconpos="top" data-role="button">Circle</a></div>
                     	    <div class="ui-block-c"><a id="controls-bottom-diamond" href="javascript:responseButton(3);"  data-icon="encr-diamond" data-iconpos="top" data-role="button">Diamond</a></div>
-                    	    <div class="ui-block-d"><a id="controls-bottom-unsure" href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-role="button">Unsure</a></div>
-                    	    <div class="ui-block-e"><a id="controls-bottom-nothing" href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button">Nothing</a></div>
+                    	    <div class="ui-block-d"><a id="controls-bottom-unsure" href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-role="button">不确定</a></div>
+                    	    <div class="ui-block-e"><a id="controls-bottom-nothing" href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button">空</a></div>
                         </div>
             	        <div class="ui-grid-b" id="controls-bottom-task-number" style="max-width: 768px; margin-left: auto; margin-right: auto; display:none">
                             <div class="ui-block-a" style="width:25%"></div>
@@ -241,14 +241,14 @@
                                 	<div class="ui-block-a"><a href="javascript:responseNumber(7)" data-role="button" style="margin-top: 15px">7</a></div>
                                 	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-role="button" style="margin-top: 15px">8</a></div>
                                 	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-role="button" style="margin-top: 15px">9</a></div>
-                                	<div class="ui-block-d"><a href="javascript:responseNumber(0)" data-role="button" style="margin-top: 15px">Pass</a></div>
+                                	<div class="ui-block-d"><a href="javascript:responseNumber(0)" data-role="button" style="margin-top: 15px">过</a></div>
                                 </div>
                             </div>
                             <div class="ui-block-c" style="width:15%"></div>
                         </div>
 
                         <div class="ui-grid-solo" style="max-width: 400px; margin-left: auto; margin-right: auto; display:none" id="controls-bottom-task-oddity">
-                    	    <div class="ui-block-a"><a id="controls-bottom-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="top" data-role="button">Pass</a></div>
+                    	    <div class="ui-block-a"><a id="controls-bottom-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="top" data-role="button">不确定</a></div>
                         </div>
                     </center></div><!-- end of controls-bottom -->
                     <div id="controls-bottom-mini" style="display: none; width:100%; text-align:center"><center>
@@ -259,8 +259,8 @@
                         	    <div class="ui-block-c"><a href="javascript:responseButton(3);"  data-icon="encr-diamond" data-iconpos="top" data-mini="true" data-role="button">Diamond</a></div>
                             </div>
                     	    <div class="ui-grid-a" style="max-width: 400px; margin-left: auto; margin-right: auto">
-                        	    <div class="ui-block-a"><a href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-mini="true" data-role="button">Unsure</a></div>
-                        	    <div class="ui-block-b"><a href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-mini="true" data-role="button">Nothing</a></div>
+                        	    <div class="ui-block-a"><a href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-mini="true" data-role="button">不确定</a></div>
+                        	    <div class="ui-block-b"><a href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-mini="true" data-role="button">空</a></div>
                             </div>
                         </div><!-- end of contols-bottom-mini-task-symbol -->
 
@@ -283,7 +283,7 @@
                                 	<div class="ui-block-a"><a href="javascript:responseNumber(7)" data-mini="true" data-role="button" style="margin-top: 10px">7</a></div>
                                 	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-mini="true" data-role="button" style="margin-top: 10px">8</a></div>
                                 	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-mini="true" data-role="button" style="margin-top: 10px">9</a></div>
-                                	<div class="ui-block-d"><a href="javascript:responseNumber(0)" data-mini="true" data-role="button" style="margin-top: 10px">Pass</a></div>
+                                	<div class="ui-block-d"><a href="javascript:responseNumber(0)" data-mini="true" data-role="button" style="margin-top: 10px">不确定</a></div>
                                 </div>
                             </div>
                             <div class="ui-block-c" style="width:15%"></div>
@@ -299,8 +299,8 @@
                         	<a href="javascript:responseButton(1);" data-icon="encr-square" data-iconpos="top" data-role="button" style="margin-top: 25px">Square</a>
                         	<a href="javascript:responseButton(2);" data-icon="encr-circle" data-iconpos="top" data-role="button" style="margin-top: 25px">Circle</a>
                         	<a href="javascript:responseButton(3);" data-icon="encr-diamond" data-iconpos="top" data-role="button" style="margin-top: 25px">Diamond</a>
-                        	<a href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-role="button" style="margin-top: 25px">Unsure</a>
-                        	<a href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">Nothing</a>
+                        	<a href="javascript:responseButton(4);" data-icon="encr-unsure" data-iconpos="top" data-role="button" style="margin-top: 25px">不确定</a>
+                        	<a href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">空</a>
                     </div>
                 	<div id="controls-right-task-number" style="display:none">
                     	<div class="ui-grid-b">
@@ -318,11 +318,11 @@
                         	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-role="button" style="margin-top: 15px">8</a></div>
                         	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-role="button" style="margin-top: 15px">9</a></div>
                         </div>
-                    	<a href="javascript:responseNumber(0)" data-icon="encr-unsure" data-iconpos="top" data-role="button" style="margin-top: 25px">Unsure</a>
-                    	<a href="javascript:responseNumber(0)" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">Nothing</a>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-unsure" data-iconpos="top" data-role="button" style="margin-top: 25px">不确定</a>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">空</a>
                     </div>
                     <div id="controls-right-task-oddity" style="display:none;">
-                    	<a id="controls-right-skip" href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">Pass</a>
+                    	<a id="controls-right-skip" href="javascript:responseButton(4);" data-icon="encr-nothing" data-iconpos="top" data-role="button" style="margin-top: 25px">不确定</a>
                     </div>
                 </div>
 	            <div id="controls-right-mini" class="ui-block-b" style="width:0%; display:none; max-height:100%">
@@ -330,8 +330,8 @@
                     	<a href="javascript:responseButton(1);" data-icon="encr-square" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Square</a>
                     	<a href="javascript:responseButton(2);" data-icon="encr-circle" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Circle</a>
                     	<a href="javascript:responseButton(3);" data-icon="encr-diamond" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Diamond</a>
-                    	<a href="javascript:responseButton(4);" data-icon="encr-unsure" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Unsure</a>
-                    	<a href="javascript:responseButton(4);" data-icon="encr-nothing" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">Nothing</a>
+                    	<a href="javascript:responseButton(4);" data-icon="encr-unsure" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">不确定</a>
+                    	<a href="javascript:responseButton(4);" data-icon="encr-nothing" data-mini="true" data-iconpos="left" data-role="button" style="margin-top: 15px">空</a>
                     </div>
                 	<div id="controls-right-mini-task-number" style="display:none;">
                     	<div class="ui-grid-b">
@@ -349,11 +349,11 @@
                         	<div class="ui-block-b"><a href="javascript:responseNumber(8)" data-mini="true" data-role="button" style="margin-top: 10px">8</a></div>
                         	<div class="ui-block-c"><a href="javascript:responseNumber(9)" data-mini="true" data-role="button" style="margin-top: 10px">9</a></div>
                         </div>
-                    	<a href="javascript:responseNumber(0)" data-icon="encr-unsure" data-mini="true" data-iconpos="top" data-role="button" style="margin-top: 20px">Unsure</a>
-                    	<a href="javascript:responseNumber(0)" data-icon="encr-nothing" data-mini="true" data-iconpos="top" data-role="button" style="margin-top: 10px">Nothing</a>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-unsure" data-mini="true" data-iconpos="top" data-role="button" style="margin-top: 20px">不确定</a>
+                    	<a href="javascript:responseNumber(0)" data-icon="encr-nothing" data-mini="true" data-iconpos="top" data-role="button" style="margin-top: 10px">空</a>
                     </div>
                     <div id="controls-right-mini-task-oddity" style="display:none;">
-                    	<a id="controls-right-mini-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="top" data-mini="true" data-role="button" style="margin-top: 25px">Pass</a>
+                    	<a id="controls-right-mini-skip" href="javascript:responseButton(0);" data-icon="encr-nothing" data-iconpos="top" data-mini="true" data-role="button" style="margin-top: 25px">不确定</a>
                     </div>
                 </div>
             </div><!-- end of ui-grid-a -->
@@ -362,7 +362,7 @@
 
         <div data-role="footer" id="test-footer">
 	       <!-- <a href="javascript:toggleStatus();" id="status-toggle" data-icon="arrow-d" class="ui-btn-right">Status</a> -->
-	       <h1 style="color:#aaa">EnChroma Color Blindness Test &copy; 2015</h1>
+	       <h1 style="color:#aaa">增彩色弱测试 &copy; 2016</h1>
         </div>
 
 
@@ -388,7 +388,7 @@
     <div data-role="page" id="instructions-1" class="disable-select">
 
         <div data-role="header">
-        <h1>Instructions</h1>
+        <h1>说明</h1>
         </div>
 
     	<div data-role="content">
@@ -400,10 +400,8 @@
               <p>Select the appropriate button to indicate what you see in each image.</p>
     	    </div>
     	    <div id="instructions-number" style="display:none">
-    	      <p><b>Instructions for Hidden Number Task:</b></p>
-              <p>You will see an image composed of small dots. The image is only shown for a short period of time.</p>
-    	      <p>Look for a number that is hidden in the pattern of dots. The number will be a single digit from 1 to 9.</p>
-              <p>Select the appropriate button to indicate what you see in each image. You can also type the corresponding number on a keyboard or numeric keypad.</p>
+
+              <p>选择你看到的数字，会介于1-9之间。</p>
     	    </div>
     	    <div id="instructions-oddity" style="display:none">
     	      <p><b>Instructions for Oddity Task:</b></p>
@@ -412,7 +410,7 @@
     	      <p></p>
               <p>If you can't find the "odd-one-out", select the "pass" button.</p><p>There is no penalty for guessing.</p>
     	    </div>
-    	    <a href="#test" data-role="button" data-icon="arrow-r">Start Now</a>
+    	    <a href="#test" data-role="button" data-icon="arrow-r">开始</a>
       	</div><!-- /content -->
 
     </div><!-- /page id="instructions-1" -->
@@ -421,13 +419,13 @@
     <div data-role="page" id="instructions-retry" class="disable-select">
 
         <div data-role="header">
-        <h1>NOTICE</h1>
+        <h1>抱歉</h1>
         </div>
 
     	<div data-role="content">
-    	    <p><b>Sorry, a problem was detected in the responses provided.</b></p>
-    	    <p>Please read the instructions and try again. If you get this error again, you may have a color deficiency that is too strong to be measured using this app.</b></p>
-    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">Try Again</a>
+    	    <p><b>很抱歉，亲的回答中有错误。</b></p>
+    	    <p>请仔细阅读说明，然后再试一次。</b></p>
+    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">重新开始</a>
       	</div><!-- /content -->
 
     </div>
@@ -435,13 +433,13 @@
     <div data-role="page" id="instructions-error" class="disable-select">
 
         <div data-role="header">
-        <h1>ERROR</h1>
+        <h1>错误</h1>
         </div>
 
     	<div data-role="content">
-    	    <p><b>Sorry, an internal error condition was detected.</b></p>
-    	    <p>Please try the test again. If you get this error again, you may have a color deficiency that is too strong to be measured using this app.</b></p>
-    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">Try Again</a>
+    	    <p><b>抱歉，发生了内部错误</b></p>
+    	    <p>请再试一次，如果您依然获得这个错误，请联系我们</b></p>
+    	    <a href="#instructions-1" data-role="button" data-icon="arrow-r" data-rel="dialog">重新开始</a>
       	</div><!-- /content -->
 
     </div>

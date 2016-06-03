@@ -6,7 +6,7 @@ var e2 = "";
 var startApp = function() {};
 var t2 = "main";
 var survey = {};
-var hc = "http://enchroma.com/test";
+var hc = "http://themagicalglass.com/test";
 
 function log() {
     if (arguments.length > 0) {

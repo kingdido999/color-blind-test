@@ -611,7 +611,7 @@ function draw() {
             response_timeout = window.setTimeout(inputResponseTimeout, (Fa < 2 ? 5 : response_max_dt) * 1000);
         }
         var O = document.getElementById("test-header-text");
-        O.innerHTML = "测试 #" + Fa + "";
+        O.innerHTML = "Trial #" + Fa + "";
     }
     if (dot_animate) {
         if (E3 == 2 && task == "oddity" && sa) {
@@ -891,15 +891,7 @@ function endTestNow() {
     }
     U2 = t;
     if (mobile_system == "online") {
-      // manipulate data
-
-      window.location = "http://enchroma.com/test/?summary=" + encodeURIComponent(result_summary) +
-          "&axis=" + encodeURIComponent(result.ellipse_axis) +
-          "&exta=" + encodeURIComponent(result.ellipse_a) +
-          "&extb=" + encodeURIComponent(result.ellipse_b) +
-          "&lcs=" + encodeURIComponent(result.extent_wb) +
-          "&ver=" + encodeURIComponent(result.app_version) +
-          "&ds=true";
+      window.location = "http://themagicalglass.com/test/" + encodeURIComponent(result_summary);
       return true;
         // $.post("/test/", {
         //         summary: encodeURIComponent(result_summary),
@@ -912,7 +904,7 @@ function endTestNow() {
         //     })
         //     .done(function(data) {
         //
-        //         window.location = "http://enchroma.com/test/?summary=" + encodeURIComponent(result_summary) +
+        //         window.location = "http://themagicalglass.com/test/?summary=" + encodeURIComponent(result_summary) +
         //             "&axis=" + encodeURIComponent(result.ellipse_axis) +
         //             "&exta=" + encodeURIComponent(result.ellipse_a) +
         //             "&extb=" + encodeURIComponent(result.ellipse_b) +
@@ -1050,13 +1042,13 @@ function C2() {
         }
         if (result.summary != "unknown") {
             if (result.ellipse_a < db) {
-                result.summary = "mild " + result.summary;
+                result.summary = "mild-" + result.summary;
             } else if (result.ellipse_a < ga) {
-                result.summary = "moderate " + result.summary;
+                result.summary = "moderate-" + result.summary;
             } else if (result.ellipse_a < wa) {
-                result.summary = "strong " + result.summary;
+                result.summary = "strong-" + result.summary;
             } else {
-                result.summary = "complete " + result.summary;
+                result.summary = "complete-" + result.summary;
             }
         }
     } else if (result.confidence > 50 && result.ellipse_a <= Ya) {

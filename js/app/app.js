@@ -523,7 +523,7 @@ function retakeTest() {
 
 function stopTest() {
     if (mobile_system == "online") {
-        window.location = hc + "/instructions";
+        window.location ="http://www.themagicalglass.com";
         return;
     }
     clearTimeout(k2)

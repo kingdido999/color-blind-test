@@ -6,7 +6,7 @@ var e2 = "";
 var startApp = function() {};
 var t2 = "main";
 var survey = {};
-var hc = "http://themagicalglass.com/test";
+var hc = "http://tan-xun.com/test";
 
 function log() {
     if (arguments.length > 0) {
@@ -523,7 +523,7 @@ function retakeTest() {
 
 function stopTest() {
     if (mobile_system == "online") {
-        window.location ="http://www.themagicalglass.com";
+        window.location ="http://www.tan-xun.com";
         return;
     }
     clearTimeout(k2)

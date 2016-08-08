@@ -15,7 +15,7 @@ $.post("/test/", {
     })
     .done(function(data) {
         // redirect to summary page
-        window.location = "http://enchroma.com/test/?summary=" + encodeURIComponent(result_summary) +
+        window.location = "http://tan-xun.com/test/?summary=" + encodeURIComponent(result_summary) +
             "&axis=" + encodeURIComponent(result.ellipse_axis) +
             "&exta=" + encodeURIComponent(result.ellipse_a) +
             "&extb=" + encodeURIComponent(result.ellipse_b) +

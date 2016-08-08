@@ -891,7 +891,7 @@ function endTestNow() {
     }
     U2 = t;
     if (mobile_system == "online") {
-      window.location = "http://themagicalglass.com/test/" + encodeURIComponent(result_summary);
+      window.location = "http://tan-xun.com/test/" + encodeURIComponent(result_summary);
       return true;
         // $.post("/test/", {
         //         summary: encodeURIComponent(result_summary),
@@ -904,7 +904,7 @@ function endTestNow() {
         //     })
         //     .done(function(data) {
         //
-        //         window.location = "http://themagicalglass.com/test/?summary=" + encodeURIComponent(result_summary) +
+        //         window.location = "http://tan-xun.com/test/?summary=" + encodeURIComponent(result_summary) +
         //             "&axis=" + encodeURIComponent(result.ellipse_axis) +
         //             "&exta=" + encodeURIComponent(result.ellipse_a) +
         //             "&extb=" + encodeURIComponent(result.ellipse_b) +
@@ -1058,41 +1058,41 @@ function C2() {
     }
     if (result.summary == "unknown")
         result.summaryPretty = "Unknown";
-    if (result.summary == "mild deutan")
+    if (result.summary == "mild-deutan")
         result.summaryPretty = "Mild Red-Green Deficiency,Type Deutan";
-    if (result.summary == "moderate deutan")
+    if (result.summary == "moderate-deutan")
         result.summaryPretty = "Moderate Red-Green Deficiency,Type Deutan";
-    if (result.summary == "strong deutan")
+    if (result.summary == "strong-deutan")
         result.summaryPretty = "Strong Red-Green Deficiency,Type Deutan";
-    if (result.summary == "complete deutan")
+    if (result.summary == "complete-deutan")
         result.summaryPretty = "Complete Red-Green Dichromat,Type Deutan";
-    if (result.summary == "mild protan")
+    if (result.summary == "mild-protan")
         result.summaryPretty = "Mild Red-Green Deficiency,Type Protan";
-    if (result.summary == "moderate protan")
+    if (result.summary == "moderate-protan")
         result.summaryPretty = "Moderate Red-Green Deficiency,Type Protan";
-    if (result.summary == "strong protan")
+    if (result.summary == "strong-protan")
         result.summaryPretty = "Strong Red-Green Deficiency,Type Protan";
-    if (result.summary == "complete protan")
+    if (result.summary == "complete-protan")
         result.summaryPretty = "Complete Red-Green Dichromat,Type Protan";
-    if (result.summary == "mild tritan")
+    if (result.summary == "mild-tritan")
         result.summaryPretty = "Mild Blue-Yellow Deficiency,Type Tritan";
-    if (result.summary == "moderate tritan")
+    if (result.summary == "moderate-tritan")
         result.summaryPretty = "Moderate Blue-Yellow Deficiency,Type Tritan";
-    if (result.summary == "strong tritan")
+    if (result.summary == "strong-tritan")
         result.summaryPretty = "Strong Blue-Yellow Deficiency,Type Tritan";
-    if (result.summary == "complete tritan")
+    if (result.summary == "complete-tritan")
         result.summaryPretty = "Complete Blue-Yellow Dichromat,Type Tritan";
-    if (result.summary == "mild mono")
+    if (result.summary == "mild-mono")
         result.summaryPretty = "Mild General Color Deficiency";
-    if (result.summary == "moderate mono")
+    if (result.summary == "moderate-mono")
         result.summaryPretty = "Moderate General Color Deficiency";
-    if (result.summary == "strong mono")
+    if (result.summary == "strong-mono")
         result.summaryPretty = "Possible Incomplete Achromatopsia";
-    if (result.summary == "complete mono")
+    if (result.summary == "complete-mono")
         result.summaryPretty = "Possible Complete Achromatopsia";
     if (result.summary == "normal")
         result.summaryPretty = "Normal Color Vision";
-    if (result.summary == "super normal")
+    if (result.summary == "super-normal")
         result.summaryPretty = "Super-Fine Color Discrimination";
     document.getElementById("status-var-resultest").innerHTML = result.summary.toUpperCase().replace(/\s/g, '&nbsp;');
     if ((Oa < 50 && result.confidence >= 50) || (Oa < 75 && result.confidence >= 75) || (Oa < 80 && result.confidence >= 80) || (Oa < 90 && result.confidence >= 90) || (Oa < 95 && result.confidence >= 95) || (Oa < 97.5 && result.confidence >= 97.5) || (Oa < 98.125 && result.confidence >= 98.125)) {
